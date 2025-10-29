@@ -1,3 +1,4 @@
+/* eslint-disable */
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
@@ -8,9 +9,9 @@ import PuzzleThree from "./Puzzles/PuzzleThree.jsx";
 import HexLockGame from "./Puzzles/GameOver.jsx";
 const root = document.getElementById("root");
 
-const pathOne = import.meta.env.VITE_ROUTE_ONE;
-const pathTwo = import.meta.env.VITE_ROUTE_TWO;
-const pathThree = import.meta.env.VITE_ROUTE_THREE;
+const pathOne = process.env.ROUTE_ONE;
+const pathTwo = process.env.ROUTE_TWO;
+const pathThree = process.env.ROUTE_THREE;
 
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
