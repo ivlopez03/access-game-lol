@@ -1,5 +1,5 @@
 import GhostCursor from "../components/GhostCursorComponent.jsx";
-const svalue = import.meta.env.VITE_ROUTE_TWO;
+const svalue = import.meta.env.ROUTE_TWO;
 const PuzzleOne = () => {
   //store a value in local storage
   localStorage.setItem("route", `${svalue}`);
