@@ -82,7 +82,7 @@ const HomePage = () => {
   };
 
   return (
-    <div>
+    <div className="h-screen w-full flex flex-col items-center ">
       <div className="w-full z-50">
         <ASCIIText
           text="Welcome to the matrix"
@@ -90,7 +90,7 @@ const HomePage = () => {
           asciiFontSize={8}
         />
       </div>
-      <div className="absolute top-96 w-full flex flex-col items-center z-10">
+      <div className="absolute top-96  w-80 md:w-full flex flex-col items-center z-10">
         <form
           className="bg-neutral-300  shadow-lg max-w-md w-full"
           onSubmit={handleSubmit}
@@ -144,9 +144,10 @@ const HomePage = () => {
           </div>
         </div>
       )}
-      <div>
+      <div className="relative w-full h-full flex flex-col items-center  justify-center">
         {showToken && (
-          <div className="absolute bottom-44 w-full flex justify-center z-20">
+          <div className="absolute bottom-60 w-full flex flex-col text-center z-20">
+            <span className="font-bold">👇🫦🦶🏻</span>
             <TextType
               text={["The token is in the console", "please not share it!"]}
               typingSpeed={75}

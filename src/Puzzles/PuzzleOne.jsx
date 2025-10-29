@@ -4,11 +4,11 @@ const PuzzleOne = () => {
   localStorage.setItem("route", `/linus-torvalds-secret`);
 
   return (
-    <div className="">
-      <div style={{ height: 600, position: "relative" }}>
+    <div className="w-full h-screen ">
+      <div style={{ height: 700, position: "relative" }}>
         <GhostCursor
           // Visuals
-          color="#00ffea"
+          color="#fafafa"
           brightness={1}
           edgeIntensity={0}
           // Trail and motion
@@ -25,11 +25,11 @@ const PuzzleOne = () => {
         />
       </div>
       <div className="absolute w-full  ">
-        <span className="absolute -top-90 left-40 text-[#242424] ">
+        <span className="absolute -top-80 left-40 text-[#242424] ">
           In the quiet of the page where secrets hide,
           <br /> Don’t search the text
         </span>
-        <span className="absolute top-40 left-90 text-[#242424]">
+        <span className="absolute -top-40 left-90 text-[#242424]">
           look where the devs reside. Open the black box, the place code keeps
           score
         </span>

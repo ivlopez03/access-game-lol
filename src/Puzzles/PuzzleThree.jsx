@@ -21,7 +21,7 @@ const PuzzleThree = () => {
       </div>
       <NavLink
         to="/gameover"
-        className="absolute bottom-90 text-2xl cursor-pointer hover:underline "
+        className="absolute bottom-40 text-black text-center md:bottom-90 md:text-white text-2xl cursor-pointer hover:underline "
       >
         Go for some coffe, take a break , do whatever you need but Click here
         when you feel ready
