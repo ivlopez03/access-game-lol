@@ -16,7 +16,7 @@ const commandMap = {
       return [
         "Run the following command in your terminal to unlock the secret:",
         "",
-        "liquidglassSUCKS -false",
+        "liquidglasssucks -false",
         "",
       ];
     }

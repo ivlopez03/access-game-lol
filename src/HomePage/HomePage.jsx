@@ -30,6 +30,10 @@ const validData = [
     user: "acervera",
     id: "a6",
   },
+  {
+    user: "lmartinez",
+    id: "l7",
+  },
 ];
 
 const HomePage = () => {
