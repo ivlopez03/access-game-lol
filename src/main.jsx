@@ -13,10 +13,10 @@ ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Routes>
       <Route path="/*" element={<App />} />
-      <Route path={`/puzzle-one`} element={<PuzzleOne />} />
-      <Route path={`/linus-torvalds-secret`} element={<PuzzleTwo />} />
-      <Route path={`/xyz-gfv`} element={<PuzzleThree />} />
-      <Route path="/gameover" element={<HexLockGame />} />
+      <Route path={`puzzle-one`} element={<PuzzleOne />} />
+      <Route path={`linus-torvalds-secret`} element={<PuzzleTwo />} />
+      <Route path={`xyz-gfv`} element={<PuzzleThree />} />
+      <Route path="gameover" element={<HexLockGame />} />
     </Routes>
   </BrowserRouter>,
 );
