@@ -22,7 +22,7 @@ ReactDOM.createRoot(root).render(
         element={<PuzzleTwo />}
       />
       <Route path={`${pathThree}`} element={<PuzzleThree />} />
-      <Route path="/gameover" element={<HexLockGame />} />
+      <Route path="/gameover1" element={<HexLockGame />} />
     </Routes>
   </BrowserRouter>,
 );
