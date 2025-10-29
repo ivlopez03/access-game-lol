@@ -17,8 +17,8 @@ ReactDOM.createRoot(root).render(
     <Routes>
       <Route path="/*" element={<App />} />
       <Route path={`/${pathOne}`} element={<PuzzleOne />} />
-      <Route path={`${pathTwo}`} element={<PuzzleTwo />} />
-      <Route path={`${pathThree}`} element={<PuzzleThree />} />
+      <Route path={`/${pathTwo}`} element={<PuzzleTwo />} />
+      <Route path={`/${pathThree}`} element={<PuzzleThree />} />
       <Route path="/gameover" element={<HexLockGame />} />
     </Routes>
   </BrowserRouter>,
