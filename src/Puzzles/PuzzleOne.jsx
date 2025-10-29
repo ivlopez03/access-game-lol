@@ -1,9 +1,7 @@
-/* eslint-disable */
 import GhostCursor from "../components/GhostCursorComponent.jsx";
-const svalue = process.env.ROUTE_TWO;
 const PuzzleOne = () => {
   //store a value in local storage
-  localStorage.setItem("route", `${svalue}`);
+  localStorage.setItem("route", `/linus-torvalds-secret`);
 
   return (
     <div className="">

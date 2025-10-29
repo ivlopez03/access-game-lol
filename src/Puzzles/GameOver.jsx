@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback, useRef } from "react";
 
 // --- Game Configuration ---
 const CODE_LENGTH = 8; // Further increased difficulty
-const SECRET_KEY = import.meta.env.VITE_SECRET_KEY_FINAL; // Updated key length
+const SECRET_KEY = "obi_ivan_kenobi"; // Updated key length
 const FLASH_INTERVAL = 400; // Adjusted for new non-consecutive rule
 const HEX_COLORS = [
   "bg-red-500", // Index 0

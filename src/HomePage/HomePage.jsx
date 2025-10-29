@@ -3,8 +3,8 @@ import { useNavigate } from "react-router";
 import ASCIIText from "../components/ASCIItext_component.jsx";
 import { IoWarning } from "react-icons/io5";
 import TextType from "../components/TextTypeComponent.jsx";
-const ultimateKey = import.meta.env.VITE_ULTIMATE_KEY;
-const batata = import.meta.env.VITE_SECRET_KEY;
+const ultimateKey = "‘1’=‘1’";
+const batata = "john macarena";
 const validData = [
   {
     user: "jsanchez",

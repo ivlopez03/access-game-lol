@@ -1,7 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 
-const ss = import.meta.env.VITE_ROUTE_THREE;
-
 const commandMap = {
   help: () => [
     "Available commands:",
@@ -59,7 +57,7 @@ const commandMap = {
   },
   liquidglasssucks: (args) => {
     if (args[1] === "-true") {
-      return [`${ss}`];
+      return [`/xyz-gfv`];
     } else {
       return ["liquidglasssucks -false u sure?"];
     }
