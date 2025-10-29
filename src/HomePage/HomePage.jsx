@@ -5,7 +5,6 @@ import { IoWarning } from "react-icons/io5";
 import TextType from "../components/TextTypeComponent.jsx";
 const ultimateKey = import.meta.env.VITE_ULTIMATE_KEY;
 const batata = import.meta.env.VITE_SECRET_KEY;
-const surl = import.meta.env.VITE_ROUTE_ONE;
 const validData = [
   {
     user: "jsanchez",
@@ -74,7 +73,7 @@ const HomePage = () => {
       setIsAuthenticated(true);
       setInputUser("");
       alert("Access Granted");
-      return navigate(`${surl}`);
+      return navigate(`/puzzle-one`);
     }
     if (!userFound) {
       setIsAuthenticated(false);
