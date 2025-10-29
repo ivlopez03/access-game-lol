@@ -8,16 +8,19 @@ import PuzzleThree from "./Puzzles/PuzzleThree.jsx";
 import HexLockGame from "./Puzzles/GameOver.jsx";
 const root = document.getElementById("root");
 
-const pathOne = import.meta.env.VITE_ROUTE_ONE;
-const pathTwo = import.meta.env.VITE_ROUTE_TWO;
+//const pathOne = import.meta.env.VITE_ROUTE_ONE;
+//const pathTwo = import.meta.env.VITE_ROUTE_TWO;
 const pathThree = import.meta.env.VITE_ROUTE_THREE;
 
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Routes>
       <Route path="/*" element={<App />} />
-      <Route path={`/access-game-lol${pathOne}`} element={<PuzzleOne />} />
-      <Route path={`${pathTwo}`} element={<PuzzleTwo />} />
+      <Route path={`/puzzle-one`} element={<PuzzleOne />} />
+      <Route
+        path={`/access-game-lol/linus-torvalds-secret`}
+        element={<PuzzleTwo />}
+      />
       <Route path={`${pathThree}`} element={<PuzzleThree />} />
       <Route path="/gameover" element={<HexLockGame />} />
     </Routes>
