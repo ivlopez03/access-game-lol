@@ -27,15 +27,16 @@ const PuzzleOne = () => {
       <div className="absolute w-full  ">
         <span className="absolute -top-80 left-40 text-[#242424] ">
           In the quiet of the page where secrets hide,
-          <br /> Don’t search the text
+          <br /> Don’t search the text , it is somehting that remains in the
+          browser.
         </span>
         <span className="absolute -top-40 left-90 text-[#242424]">
           look where the devs reside. Open the black box, the place code keeps
-          score
+          score, tools of the trade for those who explore.
         </span>
         <span className="absolute -top-50 right-40 text-[#242424]">
-          Type, click, and peek — then check <br />
-          the browser’s store.
+          Type, click, and peek — <br />
+          the browser’s storage.
         </span>
       </div>
     </div>
